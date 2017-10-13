@@ -1,0 +1,15 @@
+.jumbotron{
+  background-color: black;
+  color: purple;
+  font-style: italic;
+  font-family: cursive;
+}
+
+body{
+  background-image: url(../images/back.png);
+}
+
+h1{
+  text-align: center;
+  font-style: italic;
+}
