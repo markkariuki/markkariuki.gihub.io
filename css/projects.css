@@ -5,7 +5,9 @@ h1{
 }
 
 body{
-  background-image: url(../images/poi.jpg);
+  background-image: url(../images/21.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron{
