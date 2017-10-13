@@ -1,9 +1,10 @@
 
 .jumbotron{
-  background-color: black;
-  color: purple;
-  font-style: italic;
-  font-family: cursive;
+background-image: url(../images/g.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 body{
@@ -15,6 +16,7 @@ body{
 h1{
   text-align: center;
   font-style: italic;
+  color: purple;
 }
 
 ul {
@@ -43,4 +45,10 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4CAF50;
+}
+
+img{
+  width: 500px;
+  margin-left: 170px;
+  margin-top: 200px;
 }
