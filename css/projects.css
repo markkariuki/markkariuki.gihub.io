@@ -1,0 +1,15 @@
+h1{
+  text-align: center;
+  font-style: italic;
+  text-decoration-color: purple;
+}
+
+body{
+  background-image: url(../images/2.jpg);
+}
+
+.jumbotron{
+  background-image: url(../images/nh.jpg);
+  background-size: cover;
+  background-position: center;
+}
