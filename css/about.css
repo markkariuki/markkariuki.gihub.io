@@ -1,0 +1,10 @@
+body{
+  background-image: url(../images/abb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron{
+  background-image: url(../images/jumbo.jpg);
+  
+}
