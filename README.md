@@ -8,4 +8,4 @@
 >---
 
 >---
->you can view my website from here [here](https://markkariuki.github.io/markkariuki.gihub.io/)
+>if you want to view my website [click here](https://markkariuki.github.io/markkariuki.gihub.io/)
