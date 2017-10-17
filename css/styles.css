@@ -1,11 +1,4 @@
 
-.jumbotron{
-background-image: url(../images/g.jpg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
 body{
   background-image: url(../images/jk.jpg);
@@ -24,7 +17,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: ##341109;
     cursor: cell;
 }
 
@@ -50,7 +43,7 @@ li a:hover:not(.active) {
 
 img{
   width: 500px;
-  margin-left: 200px;
+  margin-left: 600px;
   margin-top: 200px;
   border-radius: 50%;
   height: 300px;
@@ -60,18 +53,20 @@ img{
     position: relative;
     display: inline-block;
     font-size: 45px;
-    color: white;
+    color: pink;
     font-family: cursive;
     margin-left: 200px;
 }
 
-.dropdown-content {
+.dropdown-content  {
     display: none;
     position: absolute;
     background-color: black;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+
+
 }
 
 .dropdown:hover .dropdown-content {
