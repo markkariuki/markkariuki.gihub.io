@@ -1,16 +1,27 @@
 >---
->project - portfolio
+>PORTFOLIO
 >---
 
 >---
->this is my portfolio where my projects are and my basic history
+>This is simply my portfolio where my projects and my basic history is.
 >---
 
 >---
->if you want to view my website [click here](https://markkariuki.github.io/markkariuki.gihub.io/)
+>If you want to view my website [click here](https://markkariuki.github.io/markkariuki.gihub.io/)
 >---
 
 >---
->instalation: use the git clone method to download it to your local machine.
+>INSTALLATION: 
+>---
+>Use the git clone method to download it to your local machine.
+>---
+
+>---
+>LANGUAGES USED:
+>---
+>Html,
+>Css
+>and
+>Jquery
 >---
 
