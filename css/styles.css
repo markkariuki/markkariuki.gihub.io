@@ -245,7 +245,7 @@ a:hover {
   }
 
   body{
-    background-image: url(../images/21.jpeg);
+    background-image: url(../images/up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -259,7 +259,7 @@ a:hover {
   }
   article{
 
-      color: #AE0D7A;
+      color: white;
       font-size: 20px;
       font-style: italic;
       font-family: cursive;
@@ -305,5 +305,6 @@ a:hover {
     height: 50%;
     float: right;
     height: 200px;
-    margin-right: 170px;
+    margin-right: 600px;
+    margin-top: 200px;
   }
