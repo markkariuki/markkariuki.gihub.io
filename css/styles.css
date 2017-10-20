@@ -81,6 +81,16 @@ img{
     color: grey;
   }
 
+.mySlides {
+ margin-left: 300px;
+ float: center;
+}
+
+.w3-content{
+  display:inline-grid;
+  margin-left: 400px;
+  margin-top: 10px;
+}
   .jumbotron{
     background-image: url(../images/jumbo.jpg);
 color: black;
