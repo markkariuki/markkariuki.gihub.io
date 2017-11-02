@@ -1,9 +1,3 @@
-body{
-  background-image: url(../images/jk.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
 
 a {
     text-decoration: none;
@@ -93,7 +87,7 @@ img{
 }
   .jumbotron{
     background-image: url(../images/jumbo.jpg);
-color: black;
+    color: black;
   }
 
   img{
@@ -136,12 +130,6 @@ color: black;
 }
 
 #contact{
-  background-image: url(../images/jk.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: grey;
-}
 
   h1{
     text-align: center;
