@@ -1,29 +1,155 @@
 <!DOCTYPE html>
 <html>
+<body>
   <head>
-    <link rel="stylesheet" href="css/styles.css">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Cinzel|Fondamento|Merienda|Passion+One" rel="stylesheet">
-     <script src="js/jquery-3.2.1.js"></script>
-    <meta charset="utf-8">
-    <title>mine</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
-    <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li style="float:right"><a class="active" href="about.html">About</a></li>
-</ul>
 
+  <!-- Navigation bar with the help of bootstrap -->
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">        <a href="#" class="btn btn-default"><i class="fa fa-home"></i></a>
+</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar"style="height:10px;">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home">
+    <div class="home-wrap text-center">
+
+      <h2 class="home-header">David Mark</h2>
+<h2>front-end developer</h2>
+      <hr class="home-line">
+      <div class="home-buttons">
+        <a href="#" class="btn btn-default"><i class="fa fa-github"></i></a>
+        <a href="#" class="btn btn-default"><i class="fa fa-facebook"></i></a><a href="#" class="btn btn-default"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="btn btn-default"><i class="fa fa-pinterest"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
     <div class="container">
-<div class="jumbotron Name">
-  <h1>David Mark </h1>
-<a href="projects.html" class="next">Next &raquo;</a>
-</div>
-</div>
+      <div class="about-wrap text-center">
+        <h1>ABOUT ME</h1>
+        <hr class="line">
+        <div class="about-text">
+          <p>I am working towards my goal of becoming a web developer following the modern way of learning and the current updated languages
+          <p>Below are some of the languages i have skills.</p>
+        </div>
+        <div class="  about-wrap text-center">
+            <h1>front end skills:</h1>
+            <hr class="line">
 
-<img src="images/i.png" alt="">
+              <div class="row text-center">
+        <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
+        <i class="fa fa-css3 fa-5x" aria-hidden="true"></i>
+        <i class="fa fa-python3 fa-5x" aria-hidden="true"></i>
+        <i class="fizz icon-wordpress"></i>
 
-  </body>
-</html>
+
+          </div>
+
+          <div class="  about-wrap text-center">
+              <h1>back end skills:</h1>
+              <hr class="line">
+
+
+            <!-- col -->
+          </div>
+          <!-- row -->
+        </div>
+        <!-- about-wrap div -->
+      </div>
+      <!-- container div -->
+    </div>
+    <!-- about div -->
+  </div>
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="portfolio-header text-center">PORTFOLIO</h1>
+      <hr class="line">
+      <div class="placeholder-box">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="placeholder-item">
+              <a href="#"><img src="images/2ki.png" alt="project"></a>
+              <p class="placeholder-desc"> git user lookup</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="placeholder-item">
+              <a href="#"><img src="images/back.png" alt="project"></a>
+              <p class="placeholder-desc"> meal tracker</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="placeholder-item">
+              <a href="#"><img src="images/g.jpg" alt="project"></a>
+              <p class="placeholder-desc"> ping-pong</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="placeholder-item">
+              <a href="#"><img src="images/g.jpg" alt="project"></a>
+              <p class="placeholder-desc"> unsplash clone</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="placeholder-item">
+              <a href="#"><img src="images/g.jpg" alt="project"></a>
+              <p class="placeholder-desc"> Placeholder</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="placeholder-item">
+              <a href="#"><img src="images/g.jpg" alt="project"></a>
+              <p class="placeholder-desc"> Placeholder</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="contact-wrap text-center">
+        <h1 class="contact-header">CONTACT</h1>
+        <hr class="contact-line">
+        <form id="form" class="topBefore">
+
+        		  <input id="name" type="text" placeholder="NAME">
+        		  <input id="email" type="text" placeholder="E-MAIL">
+        		  <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+          <input   id="submit" type="submit" value="GO!" >
+
+        </form>
+
+      </div>
+    </div>
+  </div>

@@ -1,308 +1,405 @@
-
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
+.navbar {
+  background-color: black;
 }
 
-a:hover {
-    background-color: #ddd;
-    color: black;
+.navbar ul li a {
+  color: #fff !important;
+  font-size: 15px;
 }
 
-.previous {
-    background-color: #f1f1f1;
-    color: black;
+.navbar ul li a:hover {
+  background-color: #fff !important;
+  color: black !important;
 }
 
-.next {
-    background-color: #4CAF50;
-    color: white;
+.navbar-brand {
+  color: white !important;
+  font-size: 30px;
 }
 
-.round {
-    border-radius: 50%;
+.navbar-brand img{
+  height: 40px;
+  width: 70px;
 }
 
-.Name h1{
+/***** HOME *****/
+
+#home {
+background-image: url(../images/nathan-lemon-392338.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 1000px;
+}
+
+.home-wrap {
+  padding-top: 450px;
+}
+
+.home-header {
+  font-family: 'Oswald';
+  font-size: 60px;
+  color: black;
+}
+
+h2 {
+  font-family: 'Oswald';
+  font-size: 40px;
+  color: black;
+}
+
+.home-line {
+  border: 0;
+  height: 3px;
+  width: 90%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 153, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.btn {
+  margin: 10px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+  background-color: black;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+.about-wrap {
+  width: 60%;
+  margin: auto;
+  margin-top: 95px;
+}
+
+h1 {
+  font-family: 'Oswald';
   text-align: center;
-  font-style: italic;
-  font-weight: bold;
-  color:black;
-  word-spacing: 0.8em;
-  font-family: 'Cinzel', serif;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: ##341109;
-    cursor: cell;
+.line {
+  margin-top: 30px;
+  width: 50%;
+  height: 2px;
+  background-color: orange;
+  border: none;
 }
 
-li {
-    float: left;
+.about-text {
+  font-size: 23px;
+  font-family: 'PT Serif', serif;
+  text-align: justify;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.camp-link {
+  color: #fff;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+.skills-list li {
+  font-size: 18px;
+  list-style-position: inside;
+  text-align: justify;
+  margin-left: 40px;
 }
 
-.active {
-    background-color: #4CAF50;
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-image: url(../images/up.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
 }
 
-img{
-  width:100%;
-  border-radius: 20px;
-  height: 50px;
+.portfolio-header {
+  color: #000;
 }
 
-#about{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: grey;
-  }
-
-.mySlides {
- margin-left: 300px;
- float: center;
+.placeholder-item {
+  margin-top: 40px;
+  text-align: center;
+  overflo: hidden;
 }
 
-.w3-content{
-  display:inline-grid;
-  margin-left: 400px;
+.placeholder-desc {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+img {
+  border: 1px solid orange;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.divider {
+  background-color: black;
+  height: 3px;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+  background-color: black !important ;
+  padding-top: 10px;
+  padding-bottom: 65px;
+}
+
+.contact-header {
+  font-family: "Oswald";
+  color: white;
+  font-size: 40px;
+}
+
+.contact-line {
+  background-color: orange;
+  border: none;
+  height: 2px;
+  width: 40%;
+}
+
+.contact-wrap {
+  margin-top: 60px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+input {
+  padding: 10px;
+  height: 30px;
+  margin: 20px;
+}
+
+#message {
+  width: 40%;
+  height: 90px;
   margin-top: 10px;
 }
-  .jumbotron{
-    background-image: url(../images/jumbo.jpg);
-    color: black;
-  }
 
-  img{
-
-  }
-  p{
-    font-style: italic;
-    font-size: 45px;
-  }
-
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-      position: fixed;
-  }
-
-  li {
-      float: left;
-  }
-
-  li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-
-  li a:hover:not(.active) {
-      background-color: #111;
-  }
-
-  .active {
-      background-color: #4CAF50;
-  }
-
+#submit-button {
+  width: 10%;
+  height: 40px;
 }
 
-#contact{
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
-  h1{
-    text-align: center;
-    font-style: italic;
-    font-family: cursive;
-  }
-
-
-  p{
-    font-size: 45px;
-    color:black;
-    font-family: cursive;
-    font-style: italic;
-  }
-
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-  }
-
-  li {
-      float: left;
-  }
-
-  li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-
-  li a:hover:not(.active) {
-      background-color: #111;
-  }
-
-  .active {
-      background-color: #4CAF50;
-  }
-
-  .fa {
-         padding: 20px;
-         font-size: 30px;
-         width: 50px;
-         text-align: center;
-         text-decoration: none;
-         border-radius: 50%;
-     }
-
-     /* Add a hover effect if you want */
-     .fa:hover {
-         opacity: 0.7;
-     }
-
-     /* Set a specific color for each brand */
-
-     /* Facebook */
-     .fa-facebook {
-         background: #3B5998;
-         color: white;
-     }
-
-     /* Twitter */
-     .fa-instagram {
-         background: #55ACEE;
-         color: white;
-     }
-     .fa-google {
-         background: #EA202C;
-         color: white;
-      }
-      a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
 }
 
-a:hover {
-    background-color: #ddd;
-    color: black;
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
 }
 
-.previous {
-    background-color: #f1f1f1;
-    color: black;
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
 }
 
-.next {
-    background-color: #4CAF50;
-    color: white;
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
 }
 
-.round {
-    border-radius: 50%;
+input::placeholder, textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
 }
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
 }
 
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
 
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
 
-.project  h1{
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #e2dedb;
+  color: #b3aca7;
+}
+
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
   text-align: center;
-  font-style: italic;
-  font-weight: bold;
-  color:black;
-  word-spacing: 0.8em;
-  font-family: 'Cinzel', serif;
+  letter-spacing: 7px;
+}
 
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: #726659;
+
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+
+  background: transparent;
+  outline: none;
+
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+
+  border: solid 1px #b3aca7;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 502px;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+
+  outline:none;
+  cursor: pointer;
+
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+/***** FOOTER *****/
+
+footer {
+  background-color: grey;
+  height: 40px;
+}
+
+.footer-menu {
+  margin-left: -30px;
+}
+
+.footer-menu li {
+  display: inline;
+  margin: 10px;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-text {
+    font-size: 15px;
   }
-
-  body{
-    background-image: url(../images/up.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  h3 {
+    font-size: 16px;
   }
-
-#project
-
-  .second{
-      margin-left: 150px;
-      margin-right: 0px;
+  .skills-list li {
+    font-size: 15px;
   }
-  article{
-
-      color: white;
-      font-size: 20px;
-      font-style: italic;
-      font-family: cursive;
-      width: 300px;
-    border: 25px solid black;
-    padding: 25px;
-    margin: 25px;
-
-
-      }
-  }
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-      position: fixed;
-  }
-
-  li {
-      float: left;
-  }
-
-  li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-
-  li a:hover:not(.active) {
-      background-color: #111;
-  }
-
-  .active {
-      background-color: #4CAF50;
-  }
-
-  img{
-    width: 20%;
-    height: 50%;
-    float: right;
-    height: 200px;
-    margin-right: 600px;
-    margin-top: 200px;
-  }
+}
