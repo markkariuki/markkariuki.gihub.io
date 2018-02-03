@@ -403,3 +403,7 @@ footer {
     font-size: 15px;
   }
 }
+
+.progress .progress-bar {
+  background-color: orange;
+}
