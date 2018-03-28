@@ -1,0 +1,74 @@
+{% extends 'base.html'%}
+{% block styles%}
+{{ super() }}
+<link href="https://fonts.googleapis.com/css?family=Lobster|shrikhand" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script type="text/javascript"> new WOW().init(); </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+{% endblock %}
+{% block content %}
+<style>
+
+.profilepic img{
+  width: 320px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 0;
+}
+.name{
+  width: 500px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 0;
+}
+.projo p{
+  font-family: 'Lobster', cursive;
+font-size: 30px;
+}
+.container{
+}
+</style>
+<div class="username">
+<div class="container">
+<div class="row">
+
+<!-- displaying  Username-->
+  <div class="col-md-4">
+    <div class="projo">
+
+
+  <!--Display profile photo-->
+
+    <div class="profilepic">
+
+    {% if user.profile_pic_path %}
+    <img src="{{url_for('static',filename=user.profile_pic_path)}}" alt="" class="img-thumbnail">
+    {%else%}
+    <p>No profile picture</p>
+    {% endif %}
+  </div>
+  <div class="name">
+<p>username: {{user.username| capitalize}} </p>
+
+<!--Displaying user bio-->
+{% if user.bio %}
+  <p>bio: {{user.bio}}</p>
+{%else%}
+  <p> {{user.username| capitalize}} has no bio </p>
+{% endif %}
+</div>
+
+
+    {% if user == current_user %}
+    <form style="width:400px;"  action="{{url_for('main.update_pic',uname=user.username)}}" method="post" enctype = "multipart/form-data">
+    <input type="file"  name="photo" class="form-control" required>
+    <input class="btn btn-primary" type="submit">
+    <a href = {{url_for('main.update_profile',uname = current_user.username)}} class="btn btn-danger">Update Profile</a>
+    {% endif %}
+  </div>
+</div>
+</div>
+{% endblock %}

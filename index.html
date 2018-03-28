@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body onload="myFunction()" style="margin:0;">
   <head>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/scripts.js"></script>
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Animate.css-->
+ 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
   </head>
 
   <!-- Navigation bar with the help of bootstrap -->
+  <div class="load" id="loader"></div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
 
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -33,12 +41,15 @@
       </div>
     </div>
   </nav>
-
   <div id="home">
     <div class="home-wrap text-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNOBEcr7WvRiDmCP6iFaycsfVRibGZ-PeLa6qiK8WlLRt0doJAMg" style="height:200px; width:200px;" alt="">
+
+      <div class="text wow slideDown data-wow-delay="100ms" data-wow-duration="4s"">
 
       <h2 class="home-header">David Mark</h2>
-<h2>front-end developer</h2>
+<h2>full-stack developer</h2>
+</div>
       <hr class="home-line">
       <div class="home-buttons">
         <a href="#" class="btn btn-default"><i class="fa fa-github"></i></a>
@@ -54,8 +65,8 @@
         <h1>ABOUT ME</h1>
         <hr class="line">
         <div class="about-text">
-          <p>I am working towards my goal of becoming a web developer following the modern way of learning and the current updated languages
-          <p>Below are some of the languages i have skills.</p>
+          <p>I am a young fullstack web developer who is  working towards his goal of becoming a web developer following the modern way of learning and the current updated languages
+          <p>Below are some of the languages i have expert skills in.</p>
         </div>
         <div class="  about-wrap text-center">
             <h1>front end skills:</h1>
@@ -66,19 +77,20 @@
 
           <p>HTML</p>
           <div class="progress">
-            <div class="progress-bar" style="width:90%""color:orange"></div>
+            <div class="progress-bar" style="width:100%""color:orange">100%</div>
 
         </div>
 
         <p>CSS</p>
         <div class="progress">
-          <div class="progress-bar" style="width:80%"></div>
+          <div class="progress-bar" style="width:100%">100%</div>
         </div>
 
-      <p>JAVASCRIPT</p>
+      <p>ANGULAR 5</p>
       <div class="progress">
-        <div class="progress-bar" style="width:60%""color:orange"></div>
+        <div class="progress-bar" style="width:80%""color:orange">80%</div>
       </div>
+
     </div>
       </div>
           </div>
@@ -91,37 +103,33 @@
 
             <p>PYTHON</p>
             <div class="progress">
-            <div class="progress-bar" style="width:80%""color:orange"></div>
+            <div class="progress-bar" style="width:100%""color:orange">100%</div>
 
             </div>
 
             <p>DJANGO</p>
             <div class="progress">
-            <div class="progress-bar" style="width:60%"></div>
+            <div class="progress-bar progress-bar" style="width:90%">90%</div>
             </div>
 
             <p>FLASK</p>
             <div class="progress">
-            <div class="progress-bar" style="width:40%""color:orange"></div>
+            <div class="progress-bar" style="width:80%""color:orange""text-align:center;">80%</div>
             </div>
             </div>
             </div>
           </div>
 
 </div>
-  </div>
 
 
             <!-- col -->
 
           <!-- row -->
-        </div>
         <!-- about-wrap div -->
-      </div>
+
       <!-- container div -->
-    </div>
-    <!-- about div -->
-  </div>
+
 
   <div id="portfolio">
     <div class="container">
@@ -137,13 +145,13 @@
           </div>
           <div class="col-md-4">
             <div class="placeholder-item">
-              <a href="#"><img src="images/back.png" alt="project"></a>
+              <a href="#"><img src="/home/david/Documents/portfolio/images/Screenshot from 2018-01-26 18-20-07.png" alt="project"></a>
               <p class="placeholder-desc"> meal tracker</p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="placeholder-item">
-              <a href="#"><img src="images/g.jpg" alt="project"></a>
+            <div class="placeholder-item" style="height:10px">
+              <a href="#"><img src="images/ping.png" alt="project"></a>
               <p class="placeholder-desc"> ping-pong</p>
             </div>
           </div>
@@ -171,9 +179,9 @@
       </div>
     </div>
   </div>
-  </div>
 
   <div class="divider"></div>
+  <div class="text wow bounceIn data-wow-delay="100ms" data-wow-duration=""">
 
   <div id="contact">
     <div class="container">
@@ -188,7 +196,22 @@
           <input   id="submit" type="submit" value="GO!" >
 
         </form>
-
+</div>
       </div>
     </div>
   </div>
+<div class="footer">
+  <p>@copyright 2018 David Mark</p>
+</div>
+
+</div>
+<script src="js/scripts.js">
+</script>
+<!--WoW.js-->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+		<!--Initialize WoW.js-->
+		<script type="text/javascript"> new WOW().init(); </script>
+		<!--Custom Scripts-->
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>

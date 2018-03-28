@@ -1,4 +1,4 @@
-.navbar {
+ .navbar {
   background-color: black;
 }
 
@@ -25,21 +25,21 @@
 /***** HOME *****/
 
 #home {
-background-image: url(../images/nathan-lemon-392338.jpg);
+background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
-background-attachment: fixed;
 height: 1000px;
 }
 
 .home-wrap {
-  padding-top: 450px;
+  padding-top: 300px;
+  background-color:white;
 }
 
 .home-header {
   font-family: 'Oswald';
   font-size: 60px;
-  color: black;
+  color:black;
 }
 
 h2 {
@@ -88,6 +88,7 @@ h2 {
 h1 {
   font-family: 'Oswald';
   text-align: center;
+
 }
 
 .line {
@@ -121,7 +122,7 @@ h1 {
 #portfolio {
   padding-top: 30px;
   padding-bottom: 40px;
-  background-image: url(../images/up.jpg);
+  background-color: white;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -319,7 +320,7 @@ input {
 }
 
 input:hover {
-  background: #b3aca7;
+  opacity: 10;
   color: #e2dedb;
 }
 
@@ -346,7 +347,6 @@ textarea {
 }
 
 textarea:hover {
-  background: #b3aca7;
   color: #e2dedb;
 }
 
@@ -406,4 +406,76 @@ footer {
 
 .progress .progress-bar {
   background-color: orange;
+  color: black;
+}
+
+.placeholder-item img{
+  height: 300px;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 9px solid black;
+  border-radius: 100%;
+  border-top: 4px solid orange;
+  width: 120px;
+  height: 120px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNOBEcr7WvRiDmCP6iFaycsfVRibGZ-PeLa6qiK8WlLRt0doJAMg);
+  background-position: center;
+  background-size: cover;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 0.9s linear infinite;
+
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+ body{
+  background-color: white;
+}
+
+.footer{
+  height: 50px;
+  background-color: black;
+  color:orange;
+  text-align: center;
+  font-size: 15px;
 }
