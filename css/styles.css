@@ -1,19 +1,21 @@
  .navbar {
   background-color: black;
+  color: orange;
 }
 
 .navbar ul li a {
-  color: #fff !important;
+  color: blue;
   font-size: 15px;
+  margin-top: 10px;
 }
 
 .navbar ul li a:hover {
-  background-color: #fff !important;
-  color: black !important;
+  background-color: white;
+  color: white ;
 }
 
 .navbar-brand {
-  color: white !important;
+  color: orange;
   font-size: 30px;
 }
 
@@ -80,7 +82,7 @@ h2 {
 }
 
 .about-wrap {
-  width: 60%;
+  width: 80%;
   margin: auto;
   margin-top: 95px;
 }
