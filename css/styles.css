@@ -6,7 +6,7 @@
 .navbar ul li a {
   color: blue;
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 .navbar ul li a:hover {
@@ -147,9 +147,8 @@ h1 {
   color: #000;
 }
 
-img {
+ img {
   border: 1px solid orange;
-  border-radius: 5px;
   width: 100%;
 }
 
@@ -481,3 +480,5 @@ footer {
   text-align: center;
   font-size: 15px;
 }
+
+
