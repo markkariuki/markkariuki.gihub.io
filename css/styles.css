@@ -27,17 +27,27 @@
 /***** HOME *****/
 
 #home {
-background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
-height: 1000px;
+height: 600px;
 }
 
 .home-wrap {
-  padding-top: 300px;
+  padding-top: 200px;
   background-color:white;
+
+
 }
 
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: inherit;
+  bottom: 0;
+  height: 500px;
+  width: 100%;
+  z-index: -5;
+}
 .home-header {
   font-family: 'Oswald';
   font-size: 60px;
@@ -480,5 +490,3 @@ footer {
   text-align: center;
   font-size: 15px;
 }
-
-
